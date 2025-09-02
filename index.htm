@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+        <title>Prueba Html5</title>
+    </head>
+
+<body>
+ 
+<header>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+</header>
+
+<iframe src="https://cdn.lottielab.com/l/9ujHfw4UosiBTq.html" width="412" height="316" frameborder="0"></iframe>
+
+<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+    Button with data-bs-target
+  </button>
+  
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+      </div>
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLabel">Toggle left offcanvas</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLeftLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasLabel">Offcanvas left</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
+
+<section id="head">
+    <h1>La gallinita</h1>
+        <p>
+            Changing the background color of a div is similar to changing the background color of your web page’s body. Start by creating a div element. Additionally, add a class to the div so that it can be targeted with CSS:
+        </p>
+</section>
+
+<section>
+    <div class="container" id="div1">
+        <h1> Sopita </h1>
+        <p> Un parrafo pequenio. </p>
+        <p> Otro parrafo en alguna parte del documento. </p>
+    </div>
+
+    <div class="container" id="div2">
+        <h1> Baleada </h1>
+        <p> Un parrafo pequenio. </p>
+        <p> Otro parrafo en alguna parte del documento. </p>
+    </div>
+
+    <div class="container" id="div3">
+        <h1> Cafe </h1>
+        <p> Un parrafo pequenio. </p>
+        <p> Otro parrafo en alguna parte del documento. </p>
+    </div>
+</section>
+
+<section id="section1">
+    <table id="table1">
+        <!--
+            1. <table> es para crear/inciar la tabla.
+            3. <th> es para marcar los encabezados de cada calula/columna.
+            2. <tr> es para hacer una fila.
+            3. <td> es para hacer columnas
+            -->
+        
+        <tr id="filas1">
+            <th id="columnas">
+                Colores
+            </th>
+            <th id="columnas">
+                Frutas
+            </th>
+        </tr>
+
+        <tr id="filas1">
+            <td id="columnas">
+                Rojo
+            </td>
+            <td id="columnas">
+                Naranja
+            </td>
+        </tr>
+
+        <tr id="filas1">
+            <td id="columnas">
+                Amarillo
+            </td>
+            <td id="columnas">
+                Manzana
+            </td>
+        </tr>
+        <tr id="filas1">
+            <td id="columnas">
+                Azul
+            </td>
+            <td id="columnas">
+                Fresas
+            </td>
+        </tr>
+
+    </table>
+</section>
+
+<section id="hero">
+    <div class="container">
+        <div class="row">
+            <article class="col-md-4 col-sm-6 col-xs-12">
+                <h3>Frutas</h3>
+                <ul>
+                    <li>
+                        Manzanas
+                    </li>
+                    <li>
+                        Mandarina
+                    </li>
+                    <li>
+                        Peras
+                    </li>
+                    <li>
+                        Toronjas
+                    </li>
+                </ul>
+                <h3>Colores</h3>
+                <ol>
+                    <li>
+                        Rojo
+                    </li>
+                    <li>
+                        Verde
+                    </li>
+                    <li>
+                        Azul
+                    </li>
+                    <li>
+                        Rosado
+                    </li>
+                </ol>
+            </article>
+            <article class="col-md-4 col-sm-6 col-xs-12">
+                <div class="row">
+                    <h3>Prueba utilizando los grids</h3>
+                    <div class="col-sm">
+                        Una de las tres columnas.
+                    </div>
+                    <div class="col-sm">
+                        Una de las tres columnas.
+                    </div>
+                    <div class="col-sm">
+                        Una de las tres columnas.
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4 col-sm-6 col-xs-12">
+                <h3>Descripcion en parrafo</h3>
+                <p>Cuando alcanzó el éxito y ocupó los importantes cargos de organista de la iglesia de la Madeleine y director del Conservatorio de París, apenas tenía tiempo para componer; durante las vacaciones de verano, se retiraba al campo para dedicarse a dicha tarea. En sus últimos años, Fauré fue reconocido en Francia como el compositor francés más importante de su época.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="frown">
+    <div class="container-fluid">
+        <div class="row">
+            <article class="col-md-6 col-sm-6 col-xs-8">
+                <p>Esta es una ilustracion de un persona de un artista
+                     en el que se dibuja a si mismo como una caricatura
+                     o algun tipo de fursona humanoide tirando con muchos
+                     razgos gatunos.
+                </p>
+                
+                <a href="https://www.pinterest.com/pin/794463190543238090/" id="boton">Boton</a>
+
+                <aside id="aside1">
+                    <h1> Header H1 </h1>
+                    <p> Un parrafo pequenio. </p>
+                    <p> Otro parrafo en alguna parte del documento. </p>
+                </aside>
+            </article>
+            
+            <article class="col-md-6 col-sm-6 col-xs-12">
+                <img src="https://i.pinimg.com/enabled_hi/564x/38/e7/04/38e70453fb279bc896a8a58bcd62ebfb.jpg" alt="catSona" height="400px">
+            </article>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--
+<section>
+    <h2>Esto es un comentario.</h2>
+    <p>Este parrafo es parte de un comentario. El codigo no lo van a leer
+        por lo que no va aparecer en el render final del sitio web. </p>
+</section>
+-->
+
+
+<script src="https://cdn.lottielab.com/s/lottie-player@1.x/player-web.min.js"></script>
+<lottie-player src="https://cdn.lottielab.com/l/BKfSw96XZPhhYw.json" loop autoplay></lottie-player>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
